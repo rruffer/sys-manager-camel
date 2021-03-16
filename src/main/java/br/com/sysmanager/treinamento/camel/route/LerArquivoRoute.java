@@ -17,7 +17,7 @@ public class LerArquivoRoute extends RouteBuilder {
 		from(URI)
 		.routeId(ID)
 		.log("Executando a leitura de arquivos de clientes")
-		.log(">> body: \n${body}")
+		//.log(">> body: \n${body}")
 		.log(">> cabeçalho: ${headers}")
 		.log(">> última modificação: ${headers.CamelFileLastModified}")
 		//.process("testeProcessor")
