@@ -11,3 +11,6 @@
 + camel-rest-starter spring
     - [camel-rest-starter](https://camel.apache.org/camel-spring-boot/3.7.x/rest-starter.html)
     - Nested Two
+    
+#### Documentação Swagger
+[swagger](http://localhost:8080/api/labsysmanager/api-doc)

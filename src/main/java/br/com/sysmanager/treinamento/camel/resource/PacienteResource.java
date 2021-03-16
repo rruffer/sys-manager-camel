@@ -15,6 +15,11 @@ public class PacienteResource extends RouteBuilder {
 		
 		restConfiguration()
 		.component("servlet")
+		  .enableCORS(true)
+		  .apiContextPath("/api-doc")
+		  .apiProperty("api.title", "Test REST API")
+		  .apiProperty("api.version", "v1")
+		  .apiContextRouteId("doc-api")
 		.bindingMode(RestBindingMode.auto);
 		
 		rest("/pacientes")
