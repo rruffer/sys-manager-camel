@@ -4,7 +4,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
 @Component
-public class LerArquivoBuilder extends RouteBuilder {
+public class LerArquivoRoute extends RouteBuilder {
 
 	private static final String ID = "lerArquivosClientes";
 	private static final String DIRECTORY_NAME = "C:\\opt\\integracao\\lab";
